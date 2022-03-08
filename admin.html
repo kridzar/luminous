@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luminous Admin Project</title>
+    <!--MATERIAL CDN-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+    rel="stylesheet">
+    <!--STYLESHEET-->
+    <link rel="stylesheet" href="./css/admin.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./images/logo.png" >
+                    <h2>LUMI<span class="danger">NOUS</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Inicio</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">person</span>
+                    <h3>Clientes</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">trending_up</span>
+                    <h3>Datos</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Inventario</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">work</span>
+                    <h3>Empleados</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">email</span>
+                    <h3>Mensajes</h3>
+                    <span class="message-count">23</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Ajustes</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Cerrar Sesion</h3>
+                </a>
+            </div>
+        </aside>
+        <!--------------------END OF ASIDE--------------------->
+        <main>
+            <h1>Inicio</h1>
+
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">store</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Ventas</h3>
+                            <h1>$24,050</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle> 
+                            </svg> 
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultima Semana</small>
+                </div>
+                <!--------------------END OF VENTAS--------------------->
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Gastos</h3>
+                            <h1>$12,050</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle> 
+                            </svg> 
+                            <div class="number">
+                                <p>40%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultima Semana</small>
+                </div>
+                <!--------------------END OF EXPENSES--------------------->
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Ganancias</h3>
+                            <h1>$12,000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38' cy='38' r='36'></circle> 
+                            </svg> 
+                            <div class="number">
+                                <p>49%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultima Semana</small>
+                </div>
+                <!--------------------END OF INCOME--------------------->
+            </div>   
+            <!--------------------END OF INSIGHTS--------------------->
+            <div class="recent-orders">
+                <h2>Ordenes Recientes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Cliente</th>
+                            <th>Numero</th>
+                            <th>Aparato</th>
+                            <th>Servicio</th>
+                            <th>Orden</th>
+                            <th>Precio</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Maria Hernandez</td>
+                            <td>8180818804</td>
+                            <td>Samsung S9</td>
+                            <td>Pantalla</td>
+                            <td>0059</td>
+                            <td>4600</td>
+                            <td class="warning">Reparando</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Hernandez</td>
+                            <td>8180818804</td>
+                            <td>Samsung S9</td>
+                            <td>Pantalla</td>
+                            <td>0058</td>
+                            <td>4600</td>
+                            <td class="warning">Reparando</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Hernandez</td>
+                            <td>8180818804</td>
+                            <td>Samsung S9</td>
+                            <td>Pantalla</td>
+                            <td>0057</td>
+                            <td>4600</td>
+                            <td class="warning">Reparando</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Hernandez</td>
+                            <td>8180818804</td>
+                            <td>Samsung S9</td>
+                            <td>Pantalla</td>
+                            <td>0056</td>
+                            <td>4600</td>
+                            <td class="warning">Reparando</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Mostrar Todo</a>
+            </div>
+        </main>
+        <!--------------------END OF MAIN--------------------->
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hola, <b>Mashiro</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="./images/profile-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <!--END OF TOP-->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-1.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Maria Hernandez</b> hemos recibido su celular Galaxy S9</p>
+                            <small class="text-muted">Hace 2 minutes</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-1.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Maria Hernandez</b> hemos recibido su celular Galaxy S9</p>
+                            <small class="text-muted">Hace 2 minutes</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="./images/profile-1.png" alt="">
+                        </div>
+                        <div class="message">
+                            <p><b>Maria Hernandez</b> hemos recibido su celular Galaxy S9</p>
+                            <small class="text-muted">Hace 2 minutes</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END OF RECENT UPDATES-->
+            <div class="sales-analytics">
+                <h2>Estadisticas de Ventas</h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Ordenes en Linea</h3>
+                            <small class="text-muted">Ultimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+39%</h5>
+                        <h3>3840</h3>
+                    </div>
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Ordenes en Tienda</h3>
+                            <small class="text-muted">Ultimas 24 horas</small>
+                        </div>
+                        <h5 class="danger">-17%</h5>
+                        <h3>1140</h3>
+                    </div>
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Clientes Nuevos</h3>
+                            <small class="text-muted">Ultimas 24 horas</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                        <h3>18</h3>
+                    </div>
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Agregar Producto</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./javascript/admin.js"></script>
+</body>
+</html>
